@@ -1,0 +1,42 @@
+### SBT template
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+logs/
+
+### JetBrains template
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# OS X Finder
+.DS_Store
+
+### Ensime/Eclipse
+.ensime
+.sbt-hydra-history
+.ensime_cache
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings
