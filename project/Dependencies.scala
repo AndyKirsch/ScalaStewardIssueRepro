@@ -1,5 +1,4 @@
 import sbt._
-
 import scala.language.postfixOps
 
 object Dependencies {
