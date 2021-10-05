@@ -11,7 +11,7 @@ object Dependencies {
      */
     object netty {
 
-      private val version = "4.0.51.Final"
+      private val version = "4.0.56.Final"
       private val buffer: ModuleID = "io.netty" % "netty-buffer" % version
       private val codec: ModuleID = "io.netty" % "netty-codec" % version
       private val common: ModuleID = "io.netty" % "netty-common" % version
